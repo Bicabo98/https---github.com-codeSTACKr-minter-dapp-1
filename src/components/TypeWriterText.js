@@ -102,7 +102,12 @@ const TyperWriterText = () => {
         </Title>
          <SubTitle>Bored Of Blockchain? Try Something New.</SubTitle>
          <ButtonContainer>
-         <Button text="Explore" link="#about" />
+         
+         <span>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+            <Button text="Explore"  />             
+            </a>
+        </span>
          </ButtonContainer>
          
          </>

@@ -2,6 +2,7 @@ import React from'react'
 import styled from 'styled-components'
 
 
+
 const Btn = styled.button`
 display:inline-block;
 background-color:${props => props.theme.text};
@@ -14,6 +15,7 @@ padding:0.9rem 2.3rem;
 border-radius:50px;
 cursor:pointer;
 transition:all 0.2s ease;
+position:relative;
 
 &:hover{
     transform:scale(0.9);
@@ -38,10 +40,10 @@ transition:all 0.2s ease;
     padding:0.3rem;
 }
 `
-const Button = ({text, link}) => {
+const Button = ({text,Link}) => {
     return(
     <Btn>
-<a href={link} aria-label={text} target="_blank" rel="nore_ferrer">
+<a href={Link} aria-label={text} target="_blank" rel="noreferrer">
 {text}
 </a>
     </Btn>
